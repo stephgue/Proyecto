@@ -1,32 +1,45 @@
-/* Selectores, tipo de etiqueta */
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ----MOBILE FIRST------*/
 
 h1{
     color: violet;
+    padding: 15px;
 }
-
 h4{
    text-transform: uppercase; 
 }
 img{
     width: 320px;
+    padding: 15px;
     /* height> 450 px; */
 }
-/* Selectores, tipo clase */
 .img2{
     width:150px ;
 }
-/* Selectores, tipo clase */
+
+
+/* ----HEADER----UL width: 450px --*/
+.header{
+    box-shadow: 0px 5px 5px rgb(218, 197, 236);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    /* PARA CENTRAR */
+    align-items: center;
+    
+}
 .header img{
     width: 80px;
+    padding: 15px;
 }
 
-/* lista, sacarle las vi'etas, ponr todo en mayuscula y color morado */
-.header{
-    box-shadow: 0px 5px 5px rgb(218, 217, 217);
-}
 .header li{
+    padding: 5px;
     list-style-type: none;
-    text-transform: uppercase;
     color: rebeccapurple;
 }
 .header a{
@@ -34,65 +47,203 @@ img{
     text-decoration:none ;
     font-family: sans-serif;
 }
-.main .tag{
+.header ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+/* -----MAIN -----*/
+.maintop{
+    margin: 10px 20px 10px 20px;
+}
+
+.maintop h2{
+    font-family:spartan;
+    text-transform: uppercase;
+    background-color: lightpink;
+    margin: 5px 0px;
+    height: 55px;
+    width: 250px;
+}
+.main1 .tag{
     background-color: #623892;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-}
-
-.main ul{
-    list-style-type: none;
-}
-.fb{
-    background-color: rgb(17, 17, 138);
-}
-.tw{
-    background-color: mediumturquoise;
-}
-.in{
-    background-color: plum;
+    border-radius: 3px;
+    padding: 4px 10px;
 }
 .mail{
     background-color: lightcoral;
+    display: inline-block;
+    height: 20px;
 }
-.main article img{
-    width: 450px;
+.main1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+
 }
-.main article p{
-    width: 500px;
+.main1 li{
+    padding: 5px;
+    margin: 0px 5px;
 }
-.main article li{
-    width: 500px;
+.fb{
+    background-color: rgb(17, 17, 138);
+    display: inline-block;
+    height: 20px;
 }
+.tw{
+    background-color: mediumturquoise;
+    display: inline-block;
+    height: 20px;
+}
+.in{
+    background-color: plum;
+    display: inline-block;
+    height: 20px;
+}
+
+/* -----MAIN ARTICLE -----*/
+.main1 article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main1 article img{
+    width: 400px;
+}
+.main1 article p{
+    width: 400px;
+    margin: auto;
+    margin: 20px 0px;
+}
+.main1 article li{
+    width: 400px;
+    margin: auto;
+
+}
+aside {
+    display: none;
+}
+
+/* -----MAIN CONTAINER / al costado -----*/
+
+/* MAIN ILUSTRACIONES */
+.flexpadre img{
+    width: 200px;
+
+}
+.flexpadre{
+    background-color: rgb(199, 140, 214);
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    align-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    
+}
+
+.flexpadre div{
+    background-color: rgb(136, 107, 197);
+    border: 2px solid;
+    padding:5px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER .footer width: 800px; */
 .footer{
     background-color: black;
     color: white;
+    margin: 5px 0px;
+    margin: 20px 0px; 
 }
-
 .footer ul{
     list-style-type: none;
+    padding: 5px 20px;
 }
 .footer p{
     text-align: center;
 }
 
-.fb{
-    display: inline-block;
-    width: 150;
-    height: 20px;
+
+@media (min-width: 769px) {
+    .header{
+        align-items: flex-start;
+    }
+    .header img{
+        padding: 5px 50px;
+        width: 100px;
+    }
+    .header ul{
+        padding: 0px 50px;
+    }
+    .main1 article img{
+        width: 500px;
+    }
+    .main1 article p{
+        width: 500px;
+        margin: auto;
+        margin: 20px 0px;
+    }
+    .main1 article li{
+        width: 500px;
+        margin: auto;
+    }
+    .maintop{
+        margin: 10px 20px 10px 20px;
+    }
+    .maintop h2{
+        text-transform: uppercase;
+        background-color: lightpink;
+        padding: 5px;
+        margin: 5px 0px;
+        height: 30px;
+        width: 400px;
+    }    
+
+    .flexpadre{
+            background-color: rgb(199, 140, 214);
+            border: 1px solid;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 400px;
+            align-content: center;  
+        }
 }
-.tw{
-    display: inline-block;
-    width: 150;
-    height: 20px;
-}
-.in{
-    display: inline-block;
-    width: 150;
-    height: 20px;
-}
-.mail{
-    display: inline-block;
-    width: 150;
-    height: 20;
+
+
+@media (min-width: 1100px){
+    /* -----GRILLA -----*/
+    .maincontainer {
+        display: grid;
+        grid-template-columns:1fr .5fr;
+        grid-template-areas: "main aside";
+    }
+    aside {
+        grid-area: aside;
+        display: block;
+    }
+    main1 {
+        grid-area: main1;
+    }
+
 }
