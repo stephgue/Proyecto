@@ -55,8 +55,17 @@ img{
     justify-content: space-evenly;
     align-items: center;
     
+} 
+a:hover {
+    background-color: #753bb4;
+    color: white;
+    padding: 10;
+    text-decoration: none;
 }
-
+a:link {
+    background-color: rgb(234, 231, 250);
+    color: #e5a7dd;
+}
 /* -----MAIN -----*/
 .maintop{
     margin: 10px 20px 10px 20px;
