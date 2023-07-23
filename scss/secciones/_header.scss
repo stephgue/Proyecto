@@ -1,0 +1,64 @@
+
+h1{
+    color: violet;
+    padding: 15px;
+}
+h4{
+   text-transform: uppercase; 
+}
+
+img{
+    width: 112px;
+    padding: 15px;
+    /* height> 450 px; */
+}
+.img2{
+    width:150px ;
+}
+
+/* ----HEADER----UL width: 450px --*/
+.header{
+    box-shadow: 0px 5px 5px rgb(218, 197, 236);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    /* PARA CENTRAR */
+    align-items: center;
+    
+}
+.header img{
+    width: 80px;
+    padding: 15px;
+}
+
+.header li{
+    padding: 5px;
+    list-style-type: none;
+    color: rebeccapurple;
+}
+/* Las letras del navegador */
+.nav-link{
+    color: #623892;
+    text-decoration:none ;
+    font-family: sans-serif;
+}
+/* Todo Navegador */
+.nav-item{
+    list-style-type: none;
+    color: #623892;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+} 
+a:hover {
+    background-color: #753bb4;
+    color: white;
+    padding: 10;
+    text-decoration: none;
+}
+a:link {
+    color: #e5a7dd;
+}
