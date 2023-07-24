@@ -5,17 +5,8 @@ h1{
 }
 h4{
    text-transform: uppercase; 
-}
-
-img{
-    width: 112px;
-    padding: 15px;
-    /* height> 450 px; */
-}
-.img2{
-    width:150px ;
-}
-
+} 
+ 
 /* ----HEADER----UL width: 450px --*/
 .header{
     box-shadow: 0px 5px 5px rgb(218, 197, 236);
@@ -23,9 +14,9 @@ img{
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     /* PARA CENTRAR */
-    align-items: center;
-    
+    align-items: center;    
 }
+
 .header img{
     width: 80px;
     padding: 15px;
@@ -37,6 +28,7 @@ img{
     color: rebeccapurple;
 }
 /* Las letras del navegador */
+
 .nav-link{
     color: #623892;
     text-decoration:none ;
@@ -61,4 +53,17 @@ a:hover {
 }
 a:link {
     color: #e5a7dd;
+}
+
+/* Cuando sea mas gran de 769 */
+@media (min-width: 769px) {
+    .header{
+        align-items: flex-start;
+    }
+    .header img{
+        width: 100px;
+    }
+    .header ul{
+        padding: 0px 50px;
+    }
 }

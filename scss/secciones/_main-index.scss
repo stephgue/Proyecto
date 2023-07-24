@@ -83,16 +83,11 @@ aside {
 
 /* Cuando sea mas gran de 769 */
 @media (min-width: 769px) {
-    .header{
-        align-items: flex-start;
-    }
-    .header img{
-        width: 100px;
-    }
-    .header ul{
-        padding: 0px 50px;
-    }
+
     .main1 article img{
+        width: 500px;
+        margin: auto;
+        margin: 20px 0px;
         width: 500px;
     }
     .main1 article p{
@@ -110,7 +105,7 @@ aside {
         margin: auto;
     }
 
-}    
+}  
 @media (min-width: 1100px){
     /* -----GRILLA -----*/
 
