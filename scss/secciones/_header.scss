@@ -56,7 +56,8 @@ a:link {
 }
 
 /* Cuando sea mas gran de 769 */
-@media (min-width: 769px) {
+
+@media (min-width: 700px) {
     .header{
         align-items: flex-start;
     }
