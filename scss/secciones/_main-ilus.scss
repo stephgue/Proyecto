@@ -1,12 +1,13 @@
-/* ----HEADER - Cuerpo----UL width: 450px --*/
-
+/* ---Cuerpo----UL width: 450px --*/
 /* Tamaño de las ilustraciones */
-.ilusimg img{
+.main{
+    .ilu img{
     width: 400px;
     padding: 15px;
-    /* height> 450 px; */
-} 
-
+    display: flex;
+    /* height> 400 px; */
+    }
+}
 .flexpadre img{
     width: 400px;
 }

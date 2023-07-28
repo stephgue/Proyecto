@@ -4,25 +4,14 @@
     color: white;
     margin: 5px 0px;
     margin: 20px 0px; 
-}
-.footer ul{
-    list-style-type: none;
-    padding: 5px 20px;
-}
-.footer p{
-    text-align: center;
+    ul{
+        list-style-type: none;
+        padding: 5px 20px;
+    }
+    p{
+        text-align: center;
+        padding: 5px;
+    }
 }
 
 /* FOOTER .footer width: 800px; */
-.flexpadre{
-    background-color: rgb(199, 140, 214);
-    border: 1px solid;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 400px;
-    align-content: center;  
-}

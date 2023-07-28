@@ -2,64 +2,42 @@
 .main{
     margin: 10px 20px 10px 20px;
     min-width: 80vh;
+    h1{
+    color: violet;
+    padding: 15px;
+    }
+    h4{
+    text-transform: uppercase; 
+    }  
+    .mail{
+        background-color: lightcoral;
+        display: inline-block;
+        height: 20px;
     
-}
-.maintop{
-    margin: 10px 20px 10px 20px;
-    
+    }
+    .fb{
+        background-color: rgb(17, 17, 138);
+        display: inline-block;
+        height: 20px;
+    }
+    .tw{
+        background-color: mediumturquoise;
+        display: inline-block;
+        height: 20px;
+    }
+    .in{
+        background-color: plum;
+        display: inline-block;
+        height: 20px;
+    }
+
+    .carouselExample {
+        width: 400px;
+        height: 200px;
+    } 
+        
 }
 
-
-.maintop h2{
-    font-family:spartan;
-    text-transform: uppercase;
-    background-color: lightpink;
-    margin: 5px 0px;
-    height: 55px;
-    width: 250px;
-}
-.main1 .tag{
-    background-color: #623892;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    border-radius: 3px;
-    padding: 4px 10px;
-}
-.mail{
-    background-color: lightcoral;
-    display: inline-block;
-    height: 20px;
-}
-.main1 ul{
-    list-style-type: none;
-    display: flex;
-    justify-content:flex-end;
-
-}
-.main1 li{
-    padding: 5px;
-    margin: 0px 5px;
-}
-.fb{
-    background-color: rgb(17, 17, 138);
-    display: inline-block;
-    height: 20px;
-}
-.tw{
-    background-color: mediumturquoise;
-    display: inline-block;
-    height: 20px;
-}
-.in{
-    background-color: plum;
-    display: inline-block;
-    height: 20px;
-}
-
-.div carouselExample {
-    width: 200px;
-    height: 200px;
-} 
 /* -----MAIN ARTICLE -----*/
 .main1 article{
     display: flex;
