@@ -23,7 +23,7 @@
   .header .li {
     padding: 5px;
     list-style-type: none;
-    color: rebeccapurple; }
+    color: #663399; }
   .header .nav-link {
     color: #623892;
     text-decoration: none;
@@ -55,10 +55,10 @@
 
 /* ---Cuerpo----UL width: 450px --*/
 /* Tamaño de las ilustraciones */
-.main .ilu img {
-  width: 400px;
+.main img {
+  width: auto;
   padding: 15px;
-  display: flex;
+  height: 300px;
   /* height> 400 px; */ }
 
 .flexpadre img {
@@ -90,10 +90,16 @@
 
 /* -----MAIN -----*/
 .main {
-  margin: 10px 20px 10px 20px;
-  min-width: 80vh; }
+  margin: 10px 20px 10px 0px;
+  padding: 5px; }
   .main h1 {
     color: violet;
+    padding: 15px; }
+  .main .tag {
+    padding: 15px; }
+  .main .fecha {
+    padding: 15px; }
+  .main .h2 {
     padding: 15px; }
   .main h4 {
     text-transform: uppercase; }
@@ -113,17 +119,17 @@
     background-color: plum;
     display: inline-block;
     height: 20px; }
-  .main .carouselExample {
-    width: 400px;
-    height: 200px; }
+  .main #carouselExample {
+    justify-content: flex-start; }
 
 /* -----MAIN ARTICLE -----*/
-.main1 article {
+.main article {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding: 10px; }
 
-.main1 article img {
+.main article img {
   width: 400px; }
 
 .main1 article p {
@@ -155,14 +161,18 @@ aside {
   .img {
     width: 600px;
     padding: 15px;
-    margin: auto; } }
+    margin: auto; }
+  .main img {
+    height: auto; } }
 
 .formulario {
   margin: 10px 20px 10px 20px; }
 
 .shopilus img {
-  width: 400px;
+  width: auto;
+  height: 400px;
   padding: 15px;
+  display: flexbox;
   /* height> 450 px; */ }
 
 .presentacionshop {

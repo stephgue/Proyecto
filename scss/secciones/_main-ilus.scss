@@ -1,10 +1,10 @@
 /* ---Cuerpo----UL width: 450px --*/
 /* Tamaño de las ilustraciones */
 .main{
-    .ilu img{
-    width: 400px;
+    img{
+    width: auto;
     padding: 15px;
-    display: flex;
+    height: 300px;
     /* height> 400 px; */
     }
 }
