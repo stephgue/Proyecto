@@ -50,13 +50,13 @@
 
 /* Cuando sea mas gran de 769 */
 @media (min-width: 700px) {
-    .header{
+.header{
         align-items: flex-start;
     }
-    .header img{
+    .img{
         width: 100px;
     }
-    .header ul{
+    .ul{
         padding: 0px 50px;
     }
 }

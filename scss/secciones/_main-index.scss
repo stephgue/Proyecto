@@ -1,7 +1,7 @@
 /* -----MAIN -----*/ 
 .main{
     margin: 10px 20px 10px 0px;
-    padding: 5px;
+    padding: 15px;
     h1{
     color:$rosado;
     padding: 15px;
@@ -40,60 +40,54 @@
     }
 
     #carouselExample {
-        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        margin: auto;
     } 
-        
+    #carousel-inner {
+        position: relative;
+    } 
 }
 
 /* -----MAIN ARTICLE -----*/
-.main article{
+.main{
+    article{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-}
-.main article img{
+    }
+    article p{
     width: 400px;
-}
-.main1 article p{
+    margin: 20px 20px 20px 40px;
+    align-items: center;
+    padding: 5px;
+    }
+    article ol{
     width: 400px;
-    margin: auto;
-    margin: 20px 0px;
-}
-.main1 article li{
-    width: 400px;
-    margin: auto;
-}
-aside {
+    margin: 20px 20px 20px 40px;
+    padding-left: 15px;
+    align-items: center;
+    }
+    aside {
     display: none;
+    }
 }
-
 /* Cuando sea mas gran de 769 */
 @media (min-width: 769px) {
-
-    .main1 article img{
-        width: 500px;
-        margin: auto;
-        margin: 20px 0px;
-        width: 500px;
-    }
-    .main1 article p{
-        width: 500px;
-        margin: auto;
-        margin: 20px 0px;
-    }
-    .main1 article li{
-        width: 500px;
+    #carouselExample {
+        justify-content: flex-start;
+        width: 70%;
         margin: auto;
     }
-    .img {
-        width: 600px;
-        padding: 15px;
-        margin: auto;
+    .main article p{
+        width: 700px;
+        padding: 5px;
+        margin: 10px 10px 10px 10px;
     }
-    .main{
-        img{
-        height: auto;
-    }
+    .main article li{
+        width: 500px;
+        padding: 5px;
+        margin: 10px 10px 10px 10px;
     }
 }  
