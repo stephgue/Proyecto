@@ -1,7 +1,7 @@
 /* -----MAIN -----*/ 
 .main{
-    margin: 10px 20px 10px 0px;
-    padding: 15px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
     h1{
     color:$rosado;
     padding: 15px;
@@ -14,8 +14,8 @@
         }
     .h2{
         padding: 15px;
-        }
-    h4{
+    }
+    .h4{
     text-transform: uppercase; 
     }  
     .mail{
@@ -38,6 +38,14 @@
         display: inline-block;
         height: 20px;
     }
+    p{
+        padding: 10px;
+        display: inline-block;
+        height: auto;
+        color: $violeta;
+        margin: 20px 20px 20px 20px;
+        align-items: center;
+    }
 
     #carouselExample {
         align-items: center;
@@ -50,7 +58,7 @@
 }
 
 /* -----MAIN ARTICLE -----*/
-.main{
+
     article{
     display: flex;
     flex-direction: column;
@@ -58,21 +66,19 @@
     padding: 10px;
     }
     article p{
-    width: 400px;
-    margin: 20px 20px 20px 40px;
+    margin: 10px 10px 10px 10px;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     }
     article ol{
-    width: 400px;
     margin: 20px 20px 20px 40px;
     padding-left: 15px;
     align-items: center;
     }
     aside {
-    display: none;
+    display: flex;
     }
-}
+    
 /* Cuando sea mas gran de 769 */
 @media (min-width: 769px) {
     #carouselExample {
@@ -80,14 +86,25 @@
         width: 70%;
         margin: auto;
     }
-    .main article p{
+    .article p{
         width: 700px;
         padding: 5px;
         margin: 10px 10px 10px 10px;
     }
-    .main article li{
-        width: 500px;
+    .article li{
+        width: 700px;
         padding: 5px;
         margin: 10px 10px 10px 10px;
     }
+    .article ol{
+        margin: 10px 10px 10px 10px;
+        align-items: center;
+        }
 }  
+
+body main{
+    grid-area: main;
+    background-color: #f9f9fa;
+    overflow: hidden;
+    margin-top: 125px;
+}
