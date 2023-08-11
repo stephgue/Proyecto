@@ -238,9 +238,9 @@ body main {
     background-color: #663399;
     color: #FFFFFF; }
 
-.shopilus img {
+.card img {
   width: auto;
-  height: 400px;
+  height: 300px;
   padding: 15px;
   display: flexbox;
   /* height> 450 px; */ }
