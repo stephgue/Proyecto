@@ -71,6 +71,45 @@
 
 /* ---Cuerpo----UL width: 450px --*/
 /* Tamaño de las ilustraciones */
+section.ilus {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  width: 95%;
+  margin: auto;
+  grid-gap: 40px;
+  padding: 10px 10px;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  background-color: f9f9fa;
+  border-radius: 15px;
+  width: auto; }
+  section.ilus img {
+    width: 300px; }
+
+section.ilus a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(201, 201, 201, 0.5); }
+
+@media (min-width: 422px) {
+  section.ilus {
+    grid-template-columns: repeat(2, 10fr);
+    grid-template-rows: repeat(1, 400px);
+    grid-gap: 15px; }
+    section.ilus img {
+      width: 300px; } }
+
+@media (max-with: 769px) {
+  section.ilus {
+    grid-template-columns: repeat(2, 10fr);
+    grid-template-rows: repeat(1, 400px);
+    grid-gap: 15px;
+    width: 800 px; }
+    section.ilus img {
+      width: 500px; } }
+
 /* -----MAIN -----*/
 .main {
   margin: 10px 10px 10px 10px;
